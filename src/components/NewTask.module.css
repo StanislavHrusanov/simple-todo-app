@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.section h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.input-container input,
+.input-container textarea{
+    width: 250px;
+    margin: 0.5rem 0rem;
+}
+
+.input-container button{
+    align-self: end;
+}
